@@ -12,4 +12,5 @@
 */
 
 Route::get('/', 'Admin\IndexController@index');
-   
+Route::get('/navAdd', 'Admin\IndexController@navAdd');
+Route::any('/addDo', 'Admin\IndexController@addDo');  
